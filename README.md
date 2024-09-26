@@ -44,6 +44,8 @@ We also have an undetected way of skipping ads if you get blocked from the video
    **whitelist YouTube on any Chrome extensions that block ads or any third-party things that disable ads**. Don't worry our script removes ads.
    (This only removes video player ads)
 
+3. You can add this rule `@@||youtube.com/watch*^$document` to Adblock (instead of `@@||youtube.com/*^$document`). This way, it blocks all non-video advertisements, allowing ads only on video playback pages, ensuring the continuous play of videos.
+
 ## Usage
 
 Once you've installed and enabled the userscript, it should start working automatically Enjoy.
@@ -59,6 +61,7 @@ Contributors
 - [SleepingPig35](https://github.com/SleepingPig35)
 - [marjansimic](https://github.com/marjansimic)
 - [Pecunia201](https://github.com/Pecunia201)
+- [henryli17](https://github.com/henryli17)
 
 ## License
 
